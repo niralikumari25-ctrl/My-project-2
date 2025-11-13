@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    background-color: lightpink;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(150, 99, 99, 0.2);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #498aca;
+}
+
+h2 {
+    color: #0c79e6;
+    border-bottom: 1px solid #b44c4c;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+}
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+img{
+        border: 5px solid black;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+    h1:hover{
+        transform: scale(1.02);
+        box-shadow: o 8px 25px;
+    }
+ h2:hover{
+        transform: scale(1.02);
+        box-shadow: o 8px 25px;
+    }
+    p:hover{
+      transform: scale(1.02);
+        box-shadow: o 8px 25px  
+    }
+li:hover{
+    transform: scale(1.02);
+        box-shadow: o 8px 25px 
+}
