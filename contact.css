@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(221, 170, 219);
+}
+h1{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+form{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+h1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: rgb(9, 228, 155);
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: rgb(135, 161, 82);
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow: o 8px 25px;
+    background-color: rgb(85, 52, 116);
+}
+a:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color: maroon;
+}
