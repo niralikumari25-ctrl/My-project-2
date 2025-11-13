@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+}
+h1 {
+    background-color:lightblue;
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: brown;
+}
+    h2{
+        color: darkgreen;
+    }
+    h3{
+        color: darkred;
+    }
+body{
+    background-color: pink;
+
+}
+ul{
+    color:darkmagenta;
+}
+footer{
+    color: olive;
+}
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+
+    img{
+        border: 5px solid black;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+h1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+h3:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+b{
+    color: darkblue;
+}
+
