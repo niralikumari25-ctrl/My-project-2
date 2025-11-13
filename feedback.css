@@ -1,0 +1,90 @@
+body{
+    background-color:  palevioletred;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    background-color: aliceblue;
+}
+form{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    max-width: 400px;
+    background-color:burlywood;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+input:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+label{
+    color: darkgreen;
+    font-weight: bold;
+}
+select{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+}
+select:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+}
+textarea:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: darkslategrey;
+}
+h1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: aliceblue;
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: cadetblue;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: royalblue;
+}
