@@ -1,0 +1,80 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+body{
+    background-color: lightyellow;
+}
+border, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: lightgray;
+    color: darkblue;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+tr:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+tr:nth-child(odd) {
+    background-color: lightcyan;
+}
+tr:nth-child(odd):hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+tr:nth-child(even) {
+    background-color: lightcyan;
+}
+tr:nth-child(even):hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px ;
+}
+tr:hover{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: darkred;
+}
+caption{
+    font-size: 1.5em;
+    margin: 10px;
+    color: darkgreen;
+}
+footer{
+    color: deeppink;
+}
+h1{
+    background-color: lightpink;
+}
+h1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+table {
+  border-collapse: collapse;
+}
+ul:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: aliceblue;
+}
+li:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+caption:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    background-color: cadetblue;
+}
